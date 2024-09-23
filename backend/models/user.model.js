@@ -9,7 +9,7 @@ const userSchema = new mongoose.Schema(
       minlength: 3,
     },
     
-    fullname: {
+    fullName: {
       type: String,
       required: true,
       minlength: 3,
